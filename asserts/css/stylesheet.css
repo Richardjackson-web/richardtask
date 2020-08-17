@@ -1,0 +1,79 @@
+body{
+    background-image: url(../img/img2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover ;
+}
+#name{
+    text-align: center;
+    color: #fff;
+    margin-top: 20rem;
+}
+
+.container .bars{
+    position: absolute;
+    color: #fff;
+    font-size: 30px;
+    left: 42px;
+    cursor: pointer;
+    z-index: 1;
+    top: 24px;
+}
+.container1{
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, .8);
+    transition: 1s ease-in-out;
+    display: none;
+}
+.inner{
+    position: relative;
+    top: 10rem;
+    text-align: center;
+    width: 100%;
+    margin-top: 30px;
+}
+.inner a{
+    text-decoration: none;
+    font-size: 4rem;
+    color: #fff;
+    display: block;
+    font-family: 'Courier New';
+    font-weight: bolder;
+    padding-left: 16px;
+    transition: 0.3s ease-in-out;
+    z-index: 1;
+}
+.container1 .cross{
+    position: absolute;
+    color: #fff;
+    font-size: 4rem;
+    right: 42px;
+    cursor: pointer;
+    z-index: 1;
+}
+#well{
+    font-size: 4rem;
+    color: #fff;
+    font-family: 'Courier New';
+    font-weight: bolder;
+    position: relative;
+    top: 10rem;
+    text-align: center;
+    width: 100%;
+    margin-top: 30px;
+}
+#close{
+    font-size: 4rem;
+    color: #fff;
+    font-family: 'Courier New';
+    font-weight: bolder;
+    position: relative;
+    top: 10rem;
+    text-align: center;
+    width: 100%;
+    margin-top: 30px;
+}

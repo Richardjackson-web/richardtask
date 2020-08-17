@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/index2.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="asserts/css/stylesheet2.css">
+    <title>Biochemistry Quiz</title>
+</head>
+<body>
+    <main>
+
+        <!-- Header -->
+    <section style="background-image: url(./asserts/img/Header1.jpg);">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <a class="navbar-brand text-white" href="#">BIOCHEMISTRY QUIZ</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav m-auto">
+                <li class="nav-item active">
+                  <a class="nav-link text-white pl-5" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white pl-5" href="#">More Quizzes</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white pl-5" href="#">Courses</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+    </section>
+<!-- End of Header -->
+
+          <!--Questions  -->
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md mb-3">
+                        <div class="card" style="width: 18rem; height: 25rem;">
+                            <div class="card-body">
+                                 <h3 style="text-align: center;">Question One</h3>
+                                    <p><b>In which one of the following tissues is glucose transport
+                                        into the cell insulin-sensitive?</b></p>
+                                    <ul>
+                                        <p><b>A.</b> Brain.</p> 
+                                        <p><b>B.</b> Lens of the eye.</p>
+                                        <P><b>C.</b> Red blood cells.</P>
+                                        <P><b>D.</b> Adipose tissue.</P>
+                                    </ul>
+                                    <input type="text" size="5" class="mt-2" id="one"> <button type="button"  onclick="click1()"><b>Check Answer</b></button><br>
+                                    <span id="h1" style="font-size: 20px;"></span> 
+                                    <!-- Answer is D -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md mb-3">
+                        <div class="card" style="width: 18rem; height: 25rem;">
+                            <div class="card-body">
+                                 <h3 style="text-align: center;">Question Two</h3>
+                                 <p><b>One of the following is characteristic of low
+                                    insulin levels?</b></p>
+                                <ul>
+                                    <small><b>A.</b> Increased glycogen synthesis.</small> <br>
+                                    <small><b>B.</b> Decreased gluconeogenesis from lactate.</small><br>
+                                    <small><b>C.</b> Increased formation of 3-hydroxybutyrate.</small><br>
+                                    <small><b>D.</b> Decreased glycogenolysis.</small><br>
+                                </ul>
+                                <input type="text" size="5" id="two" class="mt-2"> <button type="button" onclick="click2()"><b>Check Answer</b></button><br>
+                                <span id="h2" style="font-size: 20px;"></span> 
+                                <!-- Answer is C -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md mb-3">
+                        <div class="card" style="width: 18rem; height: 25rem;">
+                            <div class="card-body">
+                                 <h3 style="text-align: center;">Question Three</h3>
+                                 <p><b>The extent of DNA synthesis in a cell could most
+                                    specifically be determined by measuring the incorporation
+                                    of radiolabeled:</b></p>
+                                <ul>
+                                    <p><b>A.</b> thymidine.</p> 
+                                    <p><b>B.</b> phosphate.</p>
+                                    <P><b>C.</b> ribose</P>
+                                    <P><b>D.</b> leucine.</P>
+                                </ul>
+                                <input type="text" size="5" id="three" class="mt-2"> <button type="button" onclick="click3()"><b>Check Answer</b></button><br>
+                                <span id="h3" style="font-size: 20px;"></span> 
+                                <!-- Answer is A -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="row pt-2">
+                    <div class="col-md mb-3">
+                        <div class="card" style="width: 18rem; height: 25rem;">
+                            <div class="card-body">
+                                 <h3 style="text-align: center;">Question Four</h3>
+                                 <p><b>A mutation to this sequence in eukaryotic mRNA will
+                                    affect the process by which the 3'-end poly-A tail is
+                                    added to the mRNA.</b></p>
+                                <ul>
+                                    <p><b>A.</b> CAAT.</p> 
+                                    <p><b>B.</b> CCA.</p>
+                                    <P><b>C.</b> GGGGCG.</P>
+                                    <P><b>D.</b> AAUAAA.</P>
+                                </ul>
+                                <input type="text" size="5" id="four"> <button type="button" onclick="click4()"><b>Check Answer</b></button><br>
+                                <span id="h4" style="font-size: 20px;"></span> 
+                                <!-- Answer is D -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md mb-3">
+                        <div class="card" style="width: 18rem; height: 25rem;">
+                            <div class="card-body">
+                                 <h3 style="text-align: center;">Question Five</h3>
+                                 <p><b>Which of the following is best described as being
+                                    trans-acting?</b></p>
+                                <ul>
+                                    <p><b>A.</b> CAP site.</p> 
+                                    <p><b>B.</b> Repressor.</p>
+                                    <P><b>C.</b> Promoter.</P>
+                                    <P><b>D.</b> Operator.</P>
+                                </ul>
+                                <input type="text" size="5" class="mt-4" id="five"> <button type="button" onclick="click5()"><b>Check Answer</b></button><br>
+                                <span id="h5" style="font-size: 20px;"></span> 
+                                <!-- Answer is B -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md">
+                        <div class="card" style="width: 18rem; height: 25rem;">
+                            <div class="card-body">
+                                 <h3 style="text-align: center;">Question Six</h3>
+                                 <p><b>Which of the following is the basis for the intestinespecific
+                                    expression of apoprotein B-48?</b></p>
+                                <ul>
+                                    <p><b>A.</b> DNA rearrangement and loss.</p> 
+                                    <p><b>B.</b> DNA transposition.</p>
+                                    <P><b>C.</b> RNA editing.</P>
+                                    <P><b>D.</b> RNA alternative splicing.</P>
+                                </ul>
+                                <input type="text" size="5" class="mt-4" id="six"> <button type="button" onclick="click6()"><b>Check Answer</b></button><br>
+                                <span id="h6" style="font-size: 20px;"></span> 
+                                <!-- Answer is C -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               
+                
+                <div class="row pt-2">
+                    <div class="col-md mb-3">
+                        <div class="card" style="width: 18rem; height: 25rem;">
+                            <div class="card-body">
+                                 <h3 style="text-align: center;">Question Seven</h3>
+                                 <p><b>Vitamins A and C, thiamin, calcium, and magnesium are
+                                    considered</b></p>
+                                <ul>
+                                    <p><b>A.</b> water-soluble vitamins.</p> 
+                                    <p><b>B.</b> fat-soluble vitamins.</p>
+                                    <P><b>C.</b> micronutrients.</P>
+                                    <P><b>D.</b> energy nutrients.</P>
+                                </ul>
+                                <input type="text" size="5" class="mt-4" id="seven"> <button type="button" onclick="click7()"><b>Check Answer</b></button><br>
+                                <span id="h7" style="font-size: 20px;"></span> 
+                                <!-- Answer is C -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md mb-3">
+                        <div class="card" style="width: 18rem; height: 25rem;">
+                            <div class="card-body">
+                                 <h3 style="text-align: center;">Question Eight</h3>
+                                 <p><b>Malnutrition plays a role in which of the following?</b></p>
+                             <ul>
+                                 <p><b>A.</b> obesity.</p> 
+                                 <p><b>B.</b> iron-deficiency anemia.</p>
+                                 <P><b>C.</b> scurvy.</P>
+                                 <P><b>D.</b> all of the above.</P>
+                             </ul>
+                             <input type="text" size="5" class="mt-5" id="eight"> <button type="button" onclick="click8()"><b>Check Answer</b></button><br>
+                             <span id="h8" style="font-size: 20px;"></span> 
+                             <!-- Answer is D -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md">
+                        <div class="card" style="width: 18rem; height: 25rem;">
+                            <div class="card-body">
+                                 <h3 style="text-align: center;">Question Nine</h3>
+                                 <p><b>Which of the following assessment methods provides objective
+                                    data?</b></p>
+                                 <ul>
+                                     <p><b>A.</b> 24-hour dietary recall</p> 
+                                     <p><b>B.</b> history of illnesses, injuries, and surgeries.</p>
+                                     <P><b>C.</b> measurement of height.</P>
+                                     <P><b>D.</b> diet record.</P>
+                                 </ul>
+                                 <input type="text" size="5" class="mt-2" id="nine"> <button type="button" onclick="click9()"><b>Check Answer</b></button><br>
+                                 <span id="h9" style="font-size: 20px;"></span> 
+                                 <!-- Answer is C -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>
+
+

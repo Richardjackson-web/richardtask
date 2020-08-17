@@ -40,11 +40,10 @@ body{
 }
 .inner a{
     text-decoration: none;
-    font-size: 4rem;
+    font-size: 3rem;
     color: #fff;
     display: block;
     font-family: 'Courier New';
-    font-weight: bolder;
     padding-left: 16px;
     transition: 0.3s ease-in-out;
     z-index: 1;
@@ -58,10 +57,9 @@ body{
     z-index: 1;
 }
 #well{
-    font-size: 4rem;
+    font-size: 3rem;
     color: #fff;
     font-family: 'Courier New';
-    font-weight: bolder;
     position: relative;
     top: 10rem;
     text-align: center;
@@ -69,10 +67,9 @@ body{
     margin-top: 30px;
 }
 #close{
-    font-size: 4rem;
+    font-size: 3rem;
     color: #fff;
     font-family: 'Courier New';
-    font-weight: bolder;
     position: relative;
     top: 10rem;
     text-align: center;

@@ -1,7 +1,7 @@
 body{
     background-image: url(../img/img2.jpg);
     background-repeat: no-repeat;
-    background-size:150% 150% ;
+    background-size: 100rem 100rem;
 }
 #name{
     text-align: center;

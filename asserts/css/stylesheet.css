@@ -14,7 +14,7 @@ body{
 .container .bars{
     position: absolute;
     color: #fff;
-    font-size: 30px;
+    font-size: 22px;
     left: 42px;
     cursor: pointer;
     z-index: 1;
@@ -49,9 +49,10 @@ body{
     z-index: 1;
 }
 .container1 .cross{
+    margin-top: 1.5rem;
     position: absolute;
     color: #fff;
-    font-size: 4rem;
+    font-size: 21px;
     right: 42px;
     cursor: pointer;
     z-index: 1;

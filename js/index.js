@@ -12,5 +12,5 @@ function closeCross() {
     document.getElementById("end").style.display = "none";
     document.getElementById("bars").style.display = "none";
     document.getElementById("name").style.display = "none";
-    document.getElementById("close").innerHTML = "THANK YOU FOR WAITING" + " " + userName;
+    document.getElementById("close").innerHTML = "Thank You For Waiting" + " " + userName;
 }
